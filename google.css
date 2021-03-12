@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Head Section */
+ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    /* border: 1px solid red; */
+    padding-right: 10px;
+}
+ul li {
+    /* border: 1px solid blue; */
+    width: 4rem;
+    text-align: center;
+    margin: 1rem 1px;
+}
+ul li a {
+    text-decoration: none;
+    color: #000000DE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+/******* Body Section **********/
+main {
+    position: relative;
+}
+.main-wrap {
+    /* border: 1px solid red; */
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    top: 200px;
+    left:  450px;
+}
+
+
+.main-wrap .logo {
+    margin-bottom: 2rem;
+}
+.nn {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}
+.input-group-text {
+    background-color: transparent;
+}
+.input-group input {
+    border-left: none;
+    border-right: none;
+}
+.google-btn {
+    padding: 2rem 0 1.5rem 0;
+    /* border: 1px solid red; */
+}
+.google-btn input {
+    padding: 7px 15px;
+    margin: 0 3px;
+    color: #222222;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+}
+.google-btn input:hover {
+    border: 1px solid #c4c4c4;
+}
+.offer-wrap {
+    display: flex;
+    justify-content: center;
+}
+.offer-text {
+    padding-right: 7px;
+}
+.links a {
+    color: #1a0dab !important;
+    font-size: .85rem;
+    margin-right: 5px;
+}
+
+/* Footer section */
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+   
+    background-color: #f2f2f2;
+}
+.nig {
+    padding: 1rem;
+    color: rgba(0,0,0,.54);
+}
+.endlinks {
+    border-top: 1px solid #e4e4e4;
+    padding: 1rem 1.5rem;
+}
+.endlink-right {
+    float: right;
+}
+.endlinks a {
+    color: #70757a;
+    font-size: .9rem;
+    margin-right: 7px;
+}
+
+
+@media (max-width:500px) {
+    .main-wrap {
+        /* border: 1px solid red; */
+        left: 0px;
+        width: 100%;
+    }
+    .google-btn {
+        padding: .9rem 0 1rem 0;
+    }
+    .offer-wrap {
+        display: block;
+    }
+    .logo {
+        margin-bottom: .8rem !important;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .nn {
+        width: 90%;
+    }
+    .endlinks {
+       justify-content: center;
+    }
+}
+@media (min-width: 768px) {
+    .main-wrap {
+        /* border: 1px solid red; */
+        left: 0px;
+        width: 100%;
+    }
+}
+@media (min-width:1100px) {
+    .main-wrap {
+        /* border: 1px solid red; */
+        left: 0px;
+        width: 100%;
+       
+    }
+}
+@media (min-width: 1300px) {
+    .main-wrap {
+        /* border: 1px solid red; */
+        position: absolute;
+        text-align: center;
+        width: 50%;
+        top: 200px;
+        left:  450px;
+    }
+}
